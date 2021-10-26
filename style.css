@@ -1,0 +1,22 @@
+* {
+    display: inline-block;
+    font-family: italic;
+}
+
+.nav1 {
+    width: 100%;
+    border-bottom: 0.1px solid gray;
+}
+
+.nav1 button {
+    position: relative;
+    left: 200px;
+    border: none;
+    background-color: transparent;
+}
+
+.get_money {
+    background-color: aqua;
+    position: relative;
+    left: 200px;
+}
