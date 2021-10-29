@@ -3,12 +3,16 @@
     font-family: italic;
 }
 
-.nav1 {
-    width: 100%;
-    border-bottom: 0.1px solid gray;
+body {
+    background-color: rgb(236, 238, 243);
 }
 
-.nav1 button {
+.nav1 {
+    width: 1350px;
+    border-bottom: 1px solid gray;
+}
+
+.nav1 button:not(.get_money) {
     position: relative;
     left: 200px;
     border: none;
@@ -16,7 +20,58 @@
 }
 
 .get_money {
+    height: 30px;
+    border: none;
     background-color: aqua;
     position: relative;
-    left: 200px;
+    left: 500px;
+}
+
+.main-text {
+    position: relative;
+    left: 400px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.main-text2 {
+    margin: 0;
+    color: tomato;
+    position: relative;
+    left: 425px;
+}
+
+.main-text3 {
+    margin: 0;
+    color: tomato;
+    position: relative;
+    left: 600px;
+}
+
+#inp-name_surname {
+    margin-left: 400px;
+    width: 500px;
+    height: 40px;
+}
+
+#year {
+    margin-left: 400px;
+    width: 500px;
+    height: 40px;
+}
+
+#telephone {
+    margin-left: 400px;
+    width: 500px;
+    height: 40px;
+}
+
+#many {
+    margin-left: 400px;
+    width: 500px;
+    height: 40px;
+}
+
+.checkbox1 {
+    margin-left: 600px;
 }
