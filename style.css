@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(236, 238, 243);
+    background-color: rgb(202, 204, 209);
 }
 
 .nav1 {
@@ -48,30 +48,43 @@ body {
     left: 600px;
 }
 
+.form-inp input {
+    outline: none;
+    border: 2px solid white;
+}
+
 #inp-name_surname {
+    background-color: transparent;
     margin-left: 400px;
     width: 500px;
     height: 40px;
 }
 
 #year {
+    background-color: transparent;
     margin-left: 400px;
     width: 500px;
     height: 40px;
 }
 
 #telephone {
+    background-color: transparent;
     margin-left: 400px;
     width: 500px;
     height: 40px;
 }
 
 #many {
+    background-color: transparent;
     margin-left: 400px;
     width: 500px;
     height: 40px;
 }
 
-.checkbox1 {
+.radio1 {
     margin-left: 600px;
+}
+
+::placeholder {
+    color: white;
 }
